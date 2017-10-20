@@ -1,0 +1,8 @@
+SELECT Ticket.код_билета, Ticket.дата_продажи_билета, Ticket.код_скидк,;
+  Ticket.стоимость, Ticket.конечная_стоимость, Code_ticket.номер_рейса;
+ FROM ;
+     data_air!code_ticket ;
+    INNER JOIN data_air!ticket ;
+   ON  Code_ticket.код_билета = Ticket.код_билета;
+ WHERE  Code_ticket.код_рейса = "_36U1BXHE5";
+ INTO TABLE query1.dbf  

@@ -1,0 +1,7 @@
+
+SELECT W13.код_рейса, W11.код_рейса;
+ FROM ;
+     DATA_AIR!NOMER_REISA W13 ;
+    FULL JOIN DATA_AIR!CODE_TIME W11 ;
+   ON  W13.код_рейса = W11.код_рейса;
+ ORDER BY W13.код_рейса, W11.код_рейса

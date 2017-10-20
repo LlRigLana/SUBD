@@ -1,0 +1,8 @@
+SELECT Nomer_reisa.код_рейса, Code_time.код_рейса,;
+  Code_time2.код_рейса;
+ FROM ;
+     data_air!nomer_reisa ;
+    INNER JOIN data_air!code_time ;
+   ON  Nomer_reisa.код_рейса = Code_time.код_рейса ;
+    INNER JOIN data_air!code_time2 ;
+   ON  Nomer_reisa.код_рейса = Code_time2.код_рейса
